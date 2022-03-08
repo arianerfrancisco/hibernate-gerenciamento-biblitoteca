@@ -1,11 +1,11 @@
 # Objetivo do Projeto ⛏
 
-<h1> Criar um sistema de gerenciamento de empréstimo de livros. </h1> 
-<h1> Fazer as devidas associações entre as entidades envolvidas. </h1> 
+<h2> Criar um sistema de gerenciamento de empréstimo de livros. </h2> 
+<h2> Fazer as devidas associações entre as entidades envolvidas. </h2> 
 
 ![diagrama](https://user-images.githubusercontent.com/72419533/157234661-4212e969-6442-4eca-b8a2-683111879dfb.PNG)
 
-<h2> No diagrama tem-se as quatros entidades que serão trabalhadas: Livro, Editora, Cliente e RG. </h2> 
+<h3> No diagrama tem-se as quatros entidades que serão trabalhadas: Livro, Editora, Cliente e RG. </h3> 
 
 ✔ Pelas associações, nota-se: 
 
@@ -23,5 +23,4 @@
 📢 IDE utilizada: IntelliJ IDEA 2021.3.2 (Ultimate Edition)
 
 
-
-<h2> Repositório criado para fins de estudo 📓 </h2>
+<h3> Repositório criado para fins de estudo 📓 </h3>
