@@ -1,8 +1,12 @@
 package hibernate;
 
-public class Produto {
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Editora {
     private Integer id;
     private String nome;
+    private Set<Livro> livros = new LinkedHashSet<Livro>();
 
     public Integer getId() {
         return id;
@@ -18,5 +22,13 @@ public class Produto {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Set<Livro> getLivros() {
+        return livros;
+    }
+
+    public void setLivros(Set<Livro> livros) {
+        this.livros = livros;
     }
 }
