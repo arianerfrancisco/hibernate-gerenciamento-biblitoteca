@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE hibernate-configuration PUBLIC
-"-//Hibernate/Hibernate Configuration DTD//EN"
-"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+		"-//Hibernate/Hibernate Configuration DTD//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 
 <hibernate-configuration>
 	<session-factory>
@@ -11,7 +11,7 @@
 		</property>
 
 		<property name="connection.url">
-			jdbc:mysql://localhost/db?useLegacyDatetimeCode=false&amp;serverTimezone=America/Sao_Paulo&amp;useSSL=false
+			jdbc:mysql://localhost/biblioteca?useLegacyDatetimeCode=false&amp;serverTimezone=America/Sao_Paulo&amp;useSSL=false
 		</property>
 
 		<property name="connection.username">root</property>
@@ -24,6 +24,10 @@
 		<property name="current_session_context_class">thread</property>
 		<property name="hibernate.hbm2ddl.auto">create</property>
 
-		<mapping resource="Produto.hbm.xml" />
+		<mapping resource="Cliente.hbm.xml" />
+		<mapping resource="Livro.hbm.xml" />
+		<mapping resource="Editora.hbm.xml" />
+		<mapping resource="RG.hbm.xml" />
+
 	</session-factory>
 </hibernate-configuration>
