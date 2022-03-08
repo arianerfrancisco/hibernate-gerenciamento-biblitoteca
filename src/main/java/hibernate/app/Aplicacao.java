@@ -38,6 +38,10 @@ public class Aplicacao {
         l.setEditora(e);
         session.save(l);
 
+        // criando um emprestimo
+
+        l.getClientes().add(c);
+
         session.getTransaction().commit();
 
     }
