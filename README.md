@@ -1,7 +1,7 @@
 # Objetivo do Projeto ⛏
 
-<h2> Criar um sistema de gerenciamento de empréstimo de livros. </h2> 
-<h2> Fazer as devidas associações entre as entidades envolvidas. </h2> 
+<h2> 🟢 Criar um sistema de gerenciamento de empréstimo de livros. </h2> 
+<h2> 🟢 Fazer as devidas associações entre as entidades envolvidas. </h2> 
 
 ![diagrama](https://user-images.githubusercontent.com/72419533/157234661-4212e969-6442-4eca-b8a2-683111879dfb.PNG)
 
